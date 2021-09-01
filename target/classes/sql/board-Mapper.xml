@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="Board">
+
+ <insert id="create">
+ insert into board(title,content,writer)
+ values(#{title},#{content},#{writer})
+ </insert>
+ 
+
+  
+
+</mapper>
