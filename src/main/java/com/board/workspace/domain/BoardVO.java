@@ -44,6 +44,10 @@ public class BoardVO {
 	}
 	public void setContent(String content) {
 		this.content = content;
+	}
+	@Override
+	public String toString() {
+		return "BoardVO [bno=" + bno + ", writer=" + writer + ", regdate=" + regdate + ", viewcnt=" + viewcnt
+				+ ", title=" + title + ", content=" + content + "]";
 	} 
-	
 }

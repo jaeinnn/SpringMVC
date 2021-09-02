@@ -5,11 +5,17 @@
 <head>
 	<title>Home</title>
 </head>
+<form action = "ListAll" method="get">
 <body>
+
+<button type="submit" method ="get">
+CRUD게시판 바로가기 
+</button>
 <h1>
 	Hello world!  
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
 </body>
+</form>
 </html>
