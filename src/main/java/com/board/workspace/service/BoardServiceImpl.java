@@ -4,9 +4,12 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import org.springframework.stereotype.Service;
+
 import com.board.workspace.dao.BoardDAO;
 import com.board.workspace.domain.BoardVO;
 
+@Service
 public class BoardServiceImpl implements BoardService{
 	
 	@Inject
