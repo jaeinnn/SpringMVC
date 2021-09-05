@@ -8,7 +8,7 @@
 <form action = "ListAll" method="get">
 <body>
 
-<button type="submit" method ="get">
+<button type="submit">
 CRUD게시판 바로가기 
 </button>
 <h1>

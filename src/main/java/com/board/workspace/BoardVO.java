@@ -1,4 +1,4 @@
-package com.board.workspace.domain;
+package com.board.workspace;
 
 public class BoardVO {
 	

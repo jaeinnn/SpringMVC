@@ -1,4 +1,4 @@
-package com.board.workspace.dao;
+package com.board.workspace;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import javax.inject.Inject;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
-import com.board.workspace.domain.BoardVO;
+import com.board.workspace.BoardVO;
 
 @Repository
 public class BoardDAOImpl implements BoardDAO {

@@ -9,7 +9,7 @@
  values(#{title},#{content},#{writer})
  </insert>
  
- <select id="read" resultType="com.board.workspace.domain.BoardVO">
+ <select id="read" resultType="com.board.workspace.BoardVO">
  select 
   bno, title, content, writer, regdate,viewcnt
   from board
@@ -25,7 +25,7 @@
   delete from board where bno=#{bno}
  </delete>
  
- <select id="listAll" resultType="com.board.workspace.domain.BoardVO">
+ <select id="listAll" resultType="com.board.workspace.BoardVO">
  <![CDATA[
  
  select bno, title, content, writer, regdate, viewcnt

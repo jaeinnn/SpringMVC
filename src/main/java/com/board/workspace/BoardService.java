@@ -1,8 +1,8 @@
-package com.board.workspace.service;
+package com.board.workspace;
 
 import java.util.List;
 
-import com.board.workspace.domain.BoardVO;
+import com.board.workspace.BoardVO;
 
 public interface BoardService {
 	public void regist(BoardVO board) throws Exception;

@@ -1,8 +1,8 @@
-package com.board.workspace.dao;
+package com.board.workspace;
 
 import java.util.List;
 
-import com.board.workspace.domain.BoardVO;
+import com.board.workspace.BoardVO;
 
 public interface BoardDAO {
 	
