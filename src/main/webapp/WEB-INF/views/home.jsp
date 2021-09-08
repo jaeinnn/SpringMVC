@@ -5,7 +5,7 @@
 <head>
 	<title>Home</title>
 </head>
-<form action = "ListAll" method="get">
+<form action = "listAll" method="get">
 <body>
 
 <button type="submit">
