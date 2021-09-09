@@ -12,7 +12,7 @@
 <p><label>제목</label><input type="text" name="title"></p>
 <p><label>작성자</label><input type="text" name="writer" size="15">
 </p>
-<lable>내용</lable>
+<label>내용</label>
 <textarea rows="15" cols="65" name="content"></textarea><p>
 <button type="submit">등록</button>
 

@@ -22,6 +22,11 @@ public class BoardController {
 		model.addAttribute("list",service.listAll()); //jsp에 심부름할 내역(서비스 호출) 
 	}
 	
+	@RequestMapping(value="/regist", method=RequestMethod.GET)
+	public void registerGET(BoardVO board,Model model)throws Exception{
+		
+	}
+	
 	@RequestMapping(value="/regist", method=RequestMethod.POST) //post방식으로 내용 전송
 	public String registPOST(BoardVO board, RedirectAttributes rttr) throws Exception{ //인자값으로 redirect사용 
 		service.regist(board); //글작성 서비스 호출
