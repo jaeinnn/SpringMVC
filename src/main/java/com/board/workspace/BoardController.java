@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.board.workspace.BoardService;
+import com.board.workspace.BoardVO;
 
 @Controller //컨트롤러임을 명시
 @RequestMapping(value= "/") //주소 패턴
