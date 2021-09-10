@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="false"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ page session="true"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,6 +30,10 @@
 				<p align="center">조회수</p>
 				</td>
 			</tr>
+			
+		<c:if test="${empty itemList }">
+			<tr><td>이게 나오면 list값이 없는건데...</td></tr>
+			</c:if>
 
 			<c:forEach items="${list}" var="boardVO">
 				<tr>
@@ -40,7 +45,8 @@
 					<td><span class="badge bg-red">${boardVO.viewcnt}</span></td>
 				</tr>
 			</c:forEach>
-
+			
+			
 		</table>
 		<button type="submit">글쓰기</button>
 	</body>
