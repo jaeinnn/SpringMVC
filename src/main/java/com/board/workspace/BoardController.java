@@ -36,6 +36,7 @@ public class BoardController {
 	
 	@RequestMapping(value="/read", method=RequestMethod.GET)//GET방식으로 페이지 호출 
 	public void read(@RequestParam("bno")int bno, Model model) throws Exception{
+		//인자값은 파라미터 값으로 기본키인 글번호를 기준으로 Model을 사용하여 불러옴
 		model.addAttribute(service.read(bno)); //read서비스 호출
 	}
 	
