@@ -36,9 +36,7 @@
 				</td>
 			</tr>
 			
-		<c:if test="${empty itemList }">
-			<tr><td>이게 나오면 list값이 없는건데...</td></tr>
-			</c:if>
+
 
 			<c:forEach items="${list}" var="boardVO">
 				<tr>

@@ -9,7 +9,7 @@
 <form method="post">
 <body>
 
-<p><label>제목</label><input type="text" name="title"></p>
+<p><label>제목</label><input type="text" name="title" required></p>
 <p><label>작성자</label><input type="text" name="writer" size="15">
 </p>
 <label>내용</label>
