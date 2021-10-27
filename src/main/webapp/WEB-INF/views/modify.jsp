@@ -13,7 +13,7 @@
 
 		<p>
 			<label>글번호</label> <input type="text" name="bno"
-				value="{boardVO.bno}" readonly="readonly">
+				value="${boardVO.bno}" readonly="readonly">
 		</p>
 		<p>
 			<label>제목</label> <input type="text" name="bno"
