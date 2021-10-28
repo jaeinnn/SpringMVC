@@ -17,8 +17,8 @@
  </select>
  
  <update id="update">
- update board set title=#{title},content={#content} 
- where bno =#{bno}
+ update board set writer=#{writer},title=#{title},content=#{content} 
+ where bno=#{bno}
  </update>
  
  <delete id="delete">

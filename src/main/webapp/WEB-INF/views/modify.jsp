@@ -16,7 +16,7 @@
 				value="${boardVO.bno}" readonly="readonly">
 		</p>
 		<p>
-			<label>제목</label> <input type="text" name="bno"
+			<label>제목</label> <input type="text" name="title"
 				value="${boardVO.title}">
 		</p>
 
