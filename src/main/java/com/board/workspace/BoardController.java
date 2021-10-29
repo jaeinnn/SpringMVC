@@ -20,6 +20,7 @@ public class BoardController {
 
 	@RequestMapping(value = "/listAll", method = RequestMethod.GET) // 주소 호출 명시.호출하려는 주소와 REST방식 설정(GET)
 	public void listAll(Model model) throws Exception { // 메소드 인자값은 model인터페이스(jsp를 전달하는 심부름꾼)
+	//	service.viewCount(board);
 		model.addAttribute("list", service.listAll()); // jsp에 심부름할 내역(서비스 호출)
 	}
 

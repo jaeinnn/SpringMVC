@@ -5,8 +5,8 @@
 <mapper namespace="Board">
 
  <insert id="create">
- insert into board(title,content,writer)
- values(#{title},#{content},#{writer})
+ insert into board(title,content,writer,regdate)
+ values(#{title},#{content},#{writer},#{regdate})
  </insert>
  
  <select id="read" resultType="com.board.workspace.BoardVO">
@@ -24,6 +24,13 @@
  <delete id="delete">
   delete from board where bno=#{bno}
  </delete>
+ 
+ <update id="viewcnt">
+ update board 
+ set viewcnt = viewcnt + 1
+ where bno=#{bno} 
+
+ </update>
  
  <select id="listAll" resultType="com.board.workspace.BoardVO">
  <![CDATA[

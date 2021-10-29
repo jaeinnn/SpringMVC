@@ -39,4 +39,13 @@ public class BoardServiceImpl implements BoardService{
 	public List<BoardVO> listAll() throws Exception {
 		return dao.listAll();
 	}
+
+	@Override
+	public void viewCount(BoardVO board) throws Exception {
+	
+		return; //이상하네...
+	}
+	
 }
+
+	
