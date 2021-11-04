@@ -41,11 +41,13 @@ public class BoardServiceImpl implements BoardService{
 	}
 
 	@Override
-	public void viewCount(BoardVO board) throws Exception {
-	
-		return; //이상하네...
+	public void viewCount(Integer bno) throws Exception {
+		// TODO Auto-generated method stub
+		
 	}
-	
+
+
+
 }
 
 	

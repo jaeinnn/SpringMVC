@@ -5,7 +5,7 @@ public class BoardVO {
 	private String bno;
 	private String writer;
 	private String regdate;
-	private String viewcnt; 
+	private Integer viewcnt; 
 	private String title; 
 	private String content;
 	
@@ -27,10 +27,10 @@ public class BoardVO {
 	public void setRegdate(String regdate) {
 		this.regdate = regdate;
 	}
-	public String getViewcnt() {
+	public Integer getViewcnt() {
 		return viewcnt;
 	}
-	public void setViewcnt(String viewcnt) {
+	public void setViewcnt(Integer viewcnt) {
 		this.viewcnt = viewcnt;
 	}
 	public String getTitle() {

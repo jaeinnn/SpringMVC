@@ -45,5 +45,11 @@ public class BoardDAOImpl implements BoardDAO {
 		return session.selectOne(namespace+".read",bno);
 	}
 
+	@Override
+	public void viewCount(Integer bno) throws Exception {
+		session.update(namespace + ".update", bno); 
+		
+	}
+
 
 }
